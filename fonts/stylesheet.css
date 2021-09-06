@@ -1,0 +1,77 @@
+@font-face {
+  font-family: "Lexend Peta";
+  src: url("LexendPeta-Regular.woff2") format("woff2"),
+    url("LexendPeta-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+.font-lexend {
+  font-family: "Lexend Peta";
+}
+
+@font-face {
+  font-family: "Siro";
+  src: url("Siro-Regular.woff2") format("woff2"),
+    url("Siro-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+.font-siro {
+  font-family: "Siro";
+}
+
+@font-face {
+  font-family: "Siro";
+  src: url("Siro-Light.woff2") format("woff2"),
+    url("Siro-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Siro";
+  src: url("Siro-Bold.woff2") format("woff2"),
+    url("Siro-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Blacker Display";
+  src: url("BlackerDisplay-Bold.woff2") format("woff2"),
+    url("BlackerDisplay-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+.font-blackerD {
+  font-family: "Blacker Display";
+}
+
+@font-face {
+  font-family: "Krona One";
+  src: url("KronaOne-Regular.woff2") format("woff2"),
+    url("KronaOne-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+.font-krona {
+  font-family: "Krona One";
+}
+
+@font-face {
+  font-family: "Proxima Nova Alt Lt";
+  src: url("ProximaNovaA-Light.woff2") format("woff2"),
+    url("ProximaNovaA-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+.font-proxima {
+  font-family: "Proxima Nova Alt Lt";
+}

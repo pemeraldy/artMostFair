@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 600px) {
+  /* hero section */
+  .heading-title__image {
+    width: 7.188rem;
+    /* height: 200px; */
+  }
+
+  .hero-bg__img {
+    z-index: -1;
+  }
+  .hero-title {
+    z-index: 1;
+  }
+  .hero-tagline {
+    font-size: 0.5rem;
+  }
+  .map-60__wrap {
+    width: 6rem;
+    height: 6rem;
+  }
+  section.hero {
+    padding-top: 5rem;
+    overflow: hidden;
+    min-height: 72vh;
+    background: url("../images/heroBg.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .hero-leafy {
+    bottom: 0.5rem;
+    width: 111px;
+    left: -7px;
+  }
+
+  .content-intro {
+    z-index: 2;
+    background: url("../images/svgs/patterned-green-bg.svg") no-repeat;
+    /* background-size: 133%; */
+    background-size: cover;
+    background-position: -10px 3px;
+    overflow-x: clip;
+  }
+  .intro-text {
+    width: 85%;
+    font-size: 0.9rem;
+    color: #ccf3ae;
+  }
+  .masq-img {
+    right: -0.563rem;
+    width: 37%;
+    top: -0.6rem;
+    z-index: -1;
+  }
+  .para-heading {
+    font-weight: 700;
+  }
+  .content-para {
+    columns: 2;
+    font-weight: 100;
+    font-size: 0.8rem;
+  }
+  .content-para strong {
+    font-weight: 800;
+  }
+  .drop-cap {
+    font-size: 57px;
+    float: left;
+    font-weight: bold;
+    padding-right: 14px;
+    margin-top: -8px;
+  }
+  .content-img__leafy {
+    right: 0;
+    width: 90px;
+    top: 21rem;
+  }
+
+  /* Objectives section */
+  section.objectives {
+    min-height: 500px;
+    overflow-x: clip;
+  }
+  .top-pattern {
+    width: 100%;
+    top: -2px;
+  }
+  .obj-img {
+    width: 80%;
+    top: -9rem;
+    right: -9rem;
+    z-index: 2;
+  }
+  .obj-title {
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+  .icon-wrap {
+    width: 45px;
+  }
+  .objective-desc {
+    width: 8.25rem;
+  }
+  .atampa-bg {
+    width: 100%;
+    z-index: -1;
+  }
+  .days-challenge {
+    /* z-index: 3; */
+    padding-top: 13rem;
+  }
+}
