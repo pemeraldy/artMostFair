@@ -4,6 +4,17 @@
   box-sizing: border-box;
 }
 
+/* Utitlites */
+.green-text {
+  color: #0f6c3f;
+}
+.light-green-text {
+  color: #008a25;
+}
+.grey-text {
+  color: #565e6c;
+}
+
 @media screen and (max-width: 600px) {
   /* hero section */
   .heading-title__image {
@@ -115,5 +126,71 @@
   .days-challenge {
     /* z-index: 3; */
     padding-top: 13rem;
+  }
+
+  /* Ankara Section */
+  .ankara-intro__text {
+    width: 12rem;
+    font-size: 0.9rem;
+  }
+  .ankara-para {
+    width: 12rem;
+    color: #008a25;
+    font-size: 0.8rem;
+  }
+  .key-activity,
+  .ankara-60,
+  .the-launch,
+  .footer-section {
+    overflow-x: clip;
+  }
+  .the-launch .leafy-right,
+  .the-launch .leafy-left {
+    width: 6.18rem;
+  }
+  .the-launch img {
+    width: 100%;
+  }
+  .the-launch .leafy-right {
+    right: 0;
+  }
+  .the-launch .leafy-left {
+    left: 0;
+  }
+
+  .venue-details h1 {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .venue-details p {
+    font-size: 0.6rem;
+  }
+  img.lil-pattern {
+    width: 50px;
+  }
+  .footer-img-wrap img {
+    width: 100%;
+  }
+  .footer-img-wrap {
+    width: 8rem;
+  }
+  .img-wrap-9ja {
+    width: 6rem;
+  }
+  .img-wrap-9ja img {
+    width: 100%;
+  }
+  .naija-sp {
+    font-size: 1rem;
+  }
+  .naija-sp-para {
+    font-size: 0.6rem;
+  }
+  /* Footer */
+  .social-link {
+  }
+  footer span {
+    font-size: 0.7rem;
+    color: #565e6c;
   }
 }
