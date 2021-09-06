@@ -10,7 +10,9 @@
     width: 7.188rem;
     /* height: 200px; */
   }
-
+  .heading-title__text {
+    width: 10rem;
+  }
   .hero-bg__img {
     z-index: -1;
   }
